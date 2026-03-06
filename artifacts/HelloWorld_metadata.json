@@ -1,0 +1,72 @@
+{
+	"compiler": {
+		"version": "0.8.31+commit.fd3a2265"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"name": "message",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "string",
+						"name": "_message",
+						"type": "string"
+					}
+				],
+				"name": "setMessage",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			".git/HelloWorld.sol": "HelloWorld"
+		},
+		"evmVersion": "osaka",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		".git/HelloWorld.sol": {
+			"keccak256": "0x57c8e3d90242d9a9ba90f618cc62bba194320f34de8075566e079b8f9c659cf8",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://3eacd907a807cc93b2489dc4ce64ba357c0ed249f5fcada903745ac4c51044fd",
+				"dweb:/ipfs/QmeR4LZb2pz3HMuoviM76B1ttzkvoUPwFB2NmcbpaMTrrQ"
+			]
+		}
+	},
+	"version": 1
+}
